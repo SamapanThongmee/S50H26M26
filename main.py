@@ -407,6 +407,14 @@ SPREAD_CONFIGS = [
         'far_label': 'Jun'
     },
     {
+        'near_symbol': 'S50M2026',
+        'far_symbol': 'S50U2026',
+        'near_expiry': '2026-06-29',
+        'far_expiry': '2026-09-29',
+        'near_label': 'Jun',
+        'far_label': 'Sep'
+    },
+    {
         'near_symbol': 'S50U2026',
         'far_symbol': 'S50Z2026',
         'near_expiry': '2026-09-29',
@@ -415,7 +423,6 @@ SPREAD_CONFIGS = [
         'far_label': 'Dec'
     }
 ]
-
 
 # =============================================================================
 # MAIN EXECUTION
