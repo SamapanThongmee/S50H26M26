@@ -24,7 +24,7 @@ warnings.filterwarnings('ignore')
 # CONFIGURATION
 # =============================================================================
 # Telegram API (use environment variables for security)
-API_TOKEN = os.getenv("TELEGRAM_API_TOKEN", "8194117315:AAER8upMXj0RjSiQ8DHKDTMP1sdEZP3kkhw")
+API_TOKEN = os.getenv("TELEGRAM_API_TOKEN", "8512267917:AAGjHTfr5bzo8K5W0W5zsXZB36Xti5QGHS8")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "7311904934")
 
 # Interest rate and dividend yield
@@ -494,36 +494,12 @@ class CalendarSpreadAnalyzer:
 # =============================================================================
 SPREAD_CONFIGS = [
     {
-        'near_symbol': 'S50G2026',
-        'far_symbol': 'S50H2026',
-        'near_expiry': '2026-02-26',
-        'far_expiry': '2026-03-30',
-        'near_label': 'Feb',
-        'far_label': 'Mar'
-    },
-    {
         'near_symbol': 'S50H2026',
         'far_symbol': 'S50M2026',
         'near_expiry': '2026-03-30',
         'far_expiry': '2026-06-29',
         'near_label': 'Mar',
         'far_label': 'Jun'
-    },
-    {
-        'near_symbol': 'S50M2026',
-        'far_symbol': 'S50U2026',
-        'near_expiry': '2026-06-29',
-        'far_expiry': '2026-09-29',
-        'near_label': 'Jun',
-        'far_label': 'Sep'
-    },
-    {
-        'near_symbol': 'S50U2026',
-        'far_symbol': 'S50Z2026',
-        'near_expiry': '2026-09-29',
-        'far_expiry': '2026-12-29',
-        'near_label': 'Sep',
-        'far_label': 'Dec'
     }
 ]
 
